@@ -1,0 +1,59 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.404)),
+    url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Background-Photos-hd-wallpaper.jpg");
+  background-size: cover;
+}
+.loginTitle {
+  font-size: 50px;
+  color: lightcoral;
+  font-family: "Josefin Sans", sans-serif;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.loginForm > label {
+  margin: 30px 0px 10px 0px;
+  font-size: 18px;
+  color: white;
+  font-family: "varela Round", sans-serif;
+}
+.loginInput {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.445);
+  border: none;
+  border-bottom: 1px solid lightcoral;
+  font-size: 15px;
+  color: white;
+}
+.loginInput:focus {
+  outline: none;
+}
+.loginButton {
+  margin-top: 30px;
+  cursor: pointer;
+  background: lightcoral;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}

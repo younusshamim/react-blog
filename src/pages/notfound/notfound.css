@@ -1,0 +1,11 @@
+.notfound {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notfoundtitle {
+  font-family: "Arial";
+  color: brown;
+  font-size: 50px;
+}
